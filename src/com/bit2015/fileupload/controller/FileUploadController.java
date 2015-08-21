@@ -16,7 +16,7 @@ import org.springframework.web.multipart.MultipartFile;
 public class FileUploadController {
 	
 	private static final Log LOG = LogFactory.getLog( FileUploadController.class );
-	private static final String SAVE_PATH = "D:\\temp";
+	private static final String SAVE_PATH = "C:\\temp";
 	  
 	@RequestMapping( "/form" )
 	public String form() {
